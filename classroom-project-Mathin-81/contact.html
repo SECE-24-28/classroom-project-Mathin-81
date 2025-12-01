@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mathin — Contact</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="card contact-panel">
+    <h2>Contact</h2>
+    <p class="lead small">Let’s build something. I’m available for internships and freelance work.</p>
+
+    <div class="contact-grid">
+      <div>
+        <h3>Email</h3>
+        <p><a href="mailto:mathin@example.com">mathin@example.com</a></p>
+        <h3>LinkedIn</h3>
+        <p><a href="#">linkedin.com/in/yourprofile</a></p>
+      </div>
+
+      <form class="contact-form" action="#" method="post">
+        <label>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          <input type="email" name="email" placeholder="Your email" required>
+        </label>
+        <label>
+          <textarea name="message" rows="5" placeholder="Message" required></textarea>
+        </label>
+        <div class="form-actions">
+          <button class="btn primary" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>© <span id="year5"></span> Mathin — Built with care</p>
+</footer>
+
+<script>
+window.embeddedChatbotConfig = { chatbotId: "VnfYaD7DgQSSN3T9JoMmY" };
+const s = document.createElement('script');
+s.src = "https://www.chatbase.co/embed.min.js";
+s.setAttribute("chatbotId","VnfYaD7DgQSSN3T9JoMmY");
+document.body.appendChild(s);
+</script>
+<script src="script.js"></script>
+</body>
+</html>
